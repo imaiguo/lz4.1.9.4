@@ -8,13 +8,12 @@
 
 ```bash
 > cd build/cmake
-> mkdir build & cd build
-> cmake .. -G Ninja  -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=D:\devtools\lz4.1.9.4
+> cmake -B build -G Ninja  -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=D:\devtools\lz4.1.9.4
 ```
 
 ### 构建Debug
 ```bash
-> cmake .. -G Ninja  -DCMAKE_BUILD_TYPE=Debug -DCMAKE_INSTALL_PREFIX=D:\devtools\lz4.1.9.4\debug\
+> cmake -B build -G Ninja  -DCMAKE_BUILD_TYPE=Debug -DCMAKE_INSTALL_PREFIX=D:\devtools\lz4.1.9.4\debug\
 ```
 
 
